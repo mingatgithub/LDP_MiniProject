@@ -1,6 +1,6 @@
 ---
 Author: Ming Qiu
-Date_updated: 2023-09-15
+Date_updated: 2023-09-25
 Data_source: Bromeliad Working Group (BWG)
 ---
 
