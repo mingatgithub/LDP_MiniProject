@@ -1,0 +1,1 @@
+three .csv files and two .GeoJSON files will be generated in the folder '02_outdata'.

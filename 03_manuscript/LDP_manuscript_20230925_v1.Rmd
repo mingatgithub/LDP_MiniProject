@@ -1,0 +1,10 @@
+---
+Author: Ming Qiu
+Last update: 2023-09-25
+---
+
+# Abstract
+
+This project aims to monitor forest stand-level environmental variables related to hydrological processes along forest interior-edge-cutblock transects. The research questions to be addressed include: (1) what environmental variables exhibit an observable gradient from forest edges to forest interiors? (2) How can hydrological processes such as flow path, evapotranspiration be affected along the transects? Monitoring and sampling will be carried out along forest edges adjacent to fresh cutblocks (i.e., harvest year ≥ 2020). The dataset for this research component will encompass various environmental variables, soil moisture, and soil water isotope signatures. Environmental variables and soil moisture will be continuously monitored, with measurements taken every hour using microcontroller-based sensors (specifically, Arduino Pro Mini). Considering that edge effects can extend up to two to three times the tree height, microcontrollers will be strategically placed: at the edge, 15 m and 30 m from the edge in both opening and interior positions. Soil sampling will be consistent across these locations, targeting depths of 15 cm and 30 cm. Anticipated results include (1) remarkable differences in residence time distributions of soil water between forests and disturbed areas, indicative of distinct prevailing flow paths; (2) notable gradients in soil moisture, temperature, relative humidity, and solar radiation along forest interior-edge-opening transects, which can account for the affected evaporation processes.
+
+
