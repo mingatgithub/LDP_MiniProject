@@ -20,7 +20,7 @@ The default file structure is
         ├── README.md
 
 # Execution
-open 'LDP_MoniProject.Rproj' and run 'data_clean.R'
+create .Rproj file and then run 'data_clean.R'
 
 # Anticipated results
 After running 'data_clean.R', a folder '02_outdata', which contains three .csv files and two .GeoJSON files.
