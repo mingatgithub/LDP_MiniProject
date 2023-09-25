@@ -12,8 +12,9 @@ The default file structure is
 └── LDP_MiniProject
         ├── 00_rawdata
              └── BWG_database
-        ├── 01_script
+        ├── 01_scripts
              └── data_clean.R
+        ├── 03_manuscript
         ├── renv
         ├── renv.lock
         ├── LDP_MoniProject.Rproj
