@@ -8,6 +8,7 @@ This mock project is submitted for the course 'Productivity and Reproducibility 
 
 # Folder Structure
 The default file structure is
+```
  .
 └── LDP_MiniProject
         ├── 00_rawdata
@@ -17,9 +18,11 @@ The default file structure is
         ├── 02_outdata
              └── _README.md
         ├── 03_manuscript
+        ├── 04_figs
         ├── renv
         ├── renv.lock
         ├── README.md
+```
 
 # Execution
 create .Rproj file and then run 'data_clean.R'

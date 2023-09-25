@@ -1,0 +1,130 @@
+---
+title: HYDROLOGICAL IMPACTS OF PATCH CUTTING
+author:
+  - name: Ming Qiu
+    affil: 1,\ddagger,*
+    orcid: 0000-0002-3755-7465
+affiliation:
+  - num: 1
+    address: |
+      University of British Columbia Okanagan - 
+      Department of Earth, Environmental and Geographic Sciences
+      1177 Research Road, Kelowna, BC, Canada, V1V 1V7
+    email: ming.qiu@ubc.ca
+correspondence: |
+  ming.qiu@ubc.ca; Tel.: +XX-000-00-0000.
+journal: 'Water'
+type: article
+status: submit
+simplesummary: |
+  A Simple summary goes here.
+abstract: |
+  This project aims to monitor forest stand-level environmental variables related to hydrological processes along forest interior-edge-cutblock transects. The research questions to be addressed include: (1) what environmental variables exhibit an observable gradient from forest edges to forest interiors? (2) How can hydrological processes such as flow path, evapotranspiration be affected along the transects? Monitoring and sampling will be carried out along forest edges adjacent to fresh cutblocks (i.e., harvest year ≥ 2020). The dataset for this research component will encompass various environmental variables, soil moisture, and soil water isotope signatures. Environmental variables and soil moisture will be continuously monitored, with measurements taken every hour using microcontroller-based sensors (specifically, Arduino Pro Mini). Considering that edge effects can extend up to two to three times the tree height, microcontrollers will be strategically placed: at the edge, 15 m and 30 m from the edge in both opening and interior positions. Soil sampling will be consistent across these locations, targeting depths of 15 cm and 30 cm. Anticipated results include (1) remarkable differences in residence time distributions of soil water between forests and disturbed areas, indicative of distinct prevailing flow paths; (2) notable gradients in soil moisture, temperature, relative humidity, and solar radiation along forest interior-edge-opening transects, which can account for the affected evaporation processes.
+keywords: |
+  mock; Rmarkdown; Ecohydrology
+acknowledgement: |
+  Thank all very much
+funding: |
+  This research was funded by NSERC xxxx.
+informedconsent: |
+  Informed consent was obtained from all subjects involved in the study.
+dataavailability: |
+  Data available in OSF project https://osf.io/khs4q/?view_only=a7e4c843de094544a75872da5680edd3 
+conflictsofinterest: |
+  The authors declare no conflict of interest.
+
+abbreviations:
+  - short: MDPI
+    long: Multidisciplinary Digital Publishing Institute
+  - short: LDP
+    long: Living Data Project
+bibliography: mybibfile.bib
+appendix: appendix.tex
+endnotes: false
+output: 
+  rticles::mdpi_article:
+    extra_dependencies: longtable
+    latex_engine: xelatex
+editor_options: 
+  markdown: 
+    wrap: 72
+---
+
+# Introduction
+
+Numerous studies across the world have unveiled the intricate
+relationship between forests and water
+[@bertrand-krajewski_distribution_1998; @leutnant_stormwater_2016].This
+profound connection arises from the crucial role that forests play in
+the water cycle, affecting not only water supply in both social and
+natural systems but also aquatic habitat and biodiversity conservation.
+
+In British Columbia (BC), where forests cover nearly 64% of the land,
+watershed management practices involve dealing with a range of forest
+disturbances from anthropogenic disturbances (e.g., timber harvesting,
+agriculture) to natural disturbances (e.g., insect infestation,
+wildfire). Over the past decades, there have been a fair number of
+studies addressing the forest-water relationship, which confirmed forest
+cover changes are significantly associated with alterations in
+streamflow, posing a noticeable threat to water supply.
+
+Literature suggests that... (Figure \ref{fig:fig1})
+
+```{r,fig1, echo=FALSE , out.width="70%",fig.cap="A figure added from a folder.\\label{fig:fig1}"}
+knitr::include_graphics("../04_figs/literature_summary.png")
+```
+
+
+# Materials and Methods
+
+## Study area
+
+Our study area is the Duteau community watershed, located approximately
+20 km southeast of the City of Vernon (Figure S1). It has a total
+drainage area of 213 km2, ranging in elevation from 520 m at its
+confluence with Bessette Creek to over 1,800 m in the Grizzly Hills. It
+is a snow-dominated system with peak flows occurring from late-April to
+mid-June. Since the 1890's, the watershed has been developed for
+irrigation and water supplies, providing 60 per cent of Vernon's
+drinking water and serving a population in the Greater Vernon area of
+more than 50,000 \## Data processing and analysis Processes include: 1.
+First step 2. Second step 3. Third step
+
+## Data analysis
+
+```{=tex}
+\begin{equation}
+E = MC^2
+\end{equation}
+```
+# Results
+
+Results suggested (see \ref{fig:fig2} and \ref{tab:tab1}): 
+
+- First bullet 
+- Second bullet 
+- Third bullet
+
+
+```{r fig2, echo=FALSE, fig.width=3, fig.cap="A figure added with a code chunk.\\label{fig:fig2}"}
+x = rnorm(10)
+y = rnorm(10)
+plot(x, y)
+```
+
+
+```{r tab1, echo=FALSE}
+knitr::kable(mtcars[1:5, 1:3], format = "latex", 
+             booktabs = TRUE, 
+             caption = "Table created based on mtcars.", 
+             align = 'ccc', centering = FALSE,
+             table.envir = "table", position = "H")
+```
+
+# Discussion
+
+The results are consistent with the previous findings ...
+
+# Conclusion
+
+We conclude that...
