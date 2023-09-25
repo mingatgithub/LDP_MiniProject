@@ -14,14 +14,15 @@ The default file structure is
              └── BWG_database
         ├── 01_scripts
              └── data_clean.R
+        ├── 02_outdata
+             └── _README.md
         ├── 03_manuscript
         ├── renv
         ├── renv.lock
-        ├── LDP_MoniProject.Rproj
         ├── README.md
 
 # Execution
 create .Rproj file and then run 'data_clean.R'
 
 # Anticipated results
-After running 'data_clean.R', a folder '02_outdata', which contains three .csv files and two .GeoJSON files.
+After running 'data_clean.R', three .csv files and two .GeoJSON files will be generated in the folder '02_outdata'.
