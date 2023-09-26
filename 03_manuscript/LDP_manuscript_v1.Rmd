@@ -48,6 +48,9 @@ output:
 editor_options: 
   markdown: 
     wrap: 72
+    
+csl: https://www.zotero.org/styles/elsevier-harvard
+
 ---
 
 # Introduction
